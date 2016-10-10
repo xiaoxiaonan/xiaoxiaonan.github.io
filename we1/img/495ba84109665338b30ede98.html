@@ -1,0 +1,572 @@
+<!DOCTYPE html><html><!--STATUS OK--><head><meta http-equiv="X-UA-Compatible" content="IE=Edge" /><meta charset="utf-8" /><title>
+二进制、八进制、十进制、十六进制之间的转换_电脑软件_百度经验</title><link rel="shortcut icon" href="/favicon.ico?v=2" type="image/x-icon" /><link rel="icon" sizes="any" mask href="/baidu.svg">
+<script>
+    window.alogObjectConfig = {
+        product: '132',  
+        page: '132_1210',  
+        monkey_page: '',  
+        speed_page: '',  
+ 
+        speed: {
+            sample: '0.12'   
+        },
+ 
+        monkey: {
+            sample: '0.12'   
+        },
+ 
+        exception: { 
+            sample: '0.12'   
+        },
+ 
+        feature: {
+            sample: '0.12'   
+        },
+ 
+        cus: {
+            sample: '0'   
+        },
+ 
+        csp: {
+            sample: '0.12',  
+            'default-src': [
+                {match: '*bae.baidu.com', target: 'Accept,Warn'},
+                {match: '*.baidu.com,*.bdstatic.com,*.baidustatic.com,*.baiduimg.com,*.bdimg.com,localhost,*.hao123.com,*.hao123img.com', target: 'Accept'},
+                {match: /^(127|172|192|10)(\.\d+){3}$/, target: 'Accept'},
+                {match: '*', target: 'Accept,Warn'}
+            ]
+        }
+    };
+ 
+    void function(a,b,c,d,e,f,g){if(a.alogObjectName=e,a[e]=a[e]||function(){(a[e].q=a[e].q||[]).push(arguments)},a[e].l=a[e].l||+new Date,"https:"===a.location.protocol){if(d="https://gss2.bdstatic.com/70cFsjip0QIZ8tyhnq"+d,!a.alogObjectConfig||!a.alogObjectConfig.sample)return}else d="http://img.baidu.com"+d;var h=!0;if(a.alogObjectConfig&&a.alogObjectConfig.sample){var i=Math.random();a.alogObjectConfig.rand=i,i>a.alogObjectConfig.sample&&(h=!1)}h&&(f=b.createElement(c),f.async=!0,f.src=d,g=b.getElementsByTagName(c)[0],g.parentNode.insertBefore(f,g))}(window,document,"script","/hunter/alog/alog.min.js","alog"),void function(){function a(){}window.PDC={mark:function(a,b){alog("speed.set",a,b||+new Date),alog.fire&&alog.fire("mark")},init:function(a){alog("speed.set","options",a)},view_start:a,tti:a,page_ready:a}}();void function(n){var o=!1;n.onerror=function(n,e,t,c){var i=!0;return!e&&/^script error/i.test(n)&&(o?i=!1:o=!0),i&&alog("exception.send","exception",{msg:n,js:e,ln:t,col:c}),!1},alog("exception.on","catch",function(n){alog("exception.send","exception",{msg:n.msg,js:n.path,ln:n.ln,method:n.method,flag:"catch"})})}(window);
+</script>
+
+<meta name="keywords" content='二进制、八进制、十进制、十六进制之间的转换,电脑软件,电脑,游戏/数码'/>
+
+<meta name="description" content="二进制、八进制、十进制、十六进制之间的转换,进制也就是进制位，对于接触过电脑的人来说应该都不陌生，我们常用的进制包括：二进制、八进制、十进制与十六进制，它们之间区别在于数运算时是逢几进一位。比如二进制是逢2进一位，十进制也就是我们常用的0-9是逢10进一位。具体的用法小编今天不着重解释，主要针对他们之间的转换加以讨论（今天只讲整数）。"/>
+<script type="text/javascript">!function(){var n={},e={};n.context=function(n,r){var t=arguments.length;if(t>1)e[n]=r;else if(1==t){if("object"!=typeof n)return e[n];for(var i in n)n.hasOwnProperty(i)&&(e[i]=n[i])}else if(0==t)return e},"F"in window||(window.F=n)}();;</script><!--[if lt IE 9]><script type="text/javascript" src="/static/common/tool/html5.js"></script><![endif]--><script>var _hmt = _hmt || []; (function() { var hm = document.createElement("script"); hm.src = "//hm.baidu.com/hm.js?46c8852ae89f7d9526f0082fafa15edd"; var s = document.getElementsByTagName("script")[0]; s.parentNode.insertBefore(hm, s); })();</script><link rel="stylesheet" type="text/css" href="http://exp.bdstatic.com/static/common/pkg/common_sync_css_0_2f38e82.css"/><link rel="stylesheet" type="text/css" href="http://exp.bdstatic.com/static/common/pkg/common_async_css_0_29661d1.css"/><link rel="stylesheet" type="text/css" href="http://exp.bdstatic.com/static/step/pkg/step_d2f2168.css"/><link rel="stylesheet" type="text/css" href="http://exp.bdstatic.com/static/activity/widget/ui/redbox/redbox_12741a0.css"/><link rel="stylesheet" type="text/css" href="http://exp.bdstatic.com/static/common-jquery/widget/userbar/userbar_372af9d.css"/><link rel="stylesheet" type="text/css" href="http://exp.bdstatic.com/static/common-jquery/pkg/special-msg_60ee8b9.css"/><link rel="stylesheet" type="text/css" href="http://exp.bdstatic.com/static/common-jquery/widget/js/logic/msg/go-and-see/go-and-see_062c63d.css"/><link rel="stylesheet" type="text/css" href="http://exp.bdstatic.com/static/common-jquery/widget/js/logic/msg/douniwan/douniwan_721f256.css"/><link rel="stylesheet" type="text/css" href="http://exp.bdstatic.com/static/common-jquery/widget/js/logic/msg/school2016/school2016_e6a9b2c.css"/><link rel="stylesheet" type="text/css" href="http://exp.bdstatic.com/static/common-jquery/widget/js/logic/msg/msg_aabec48.css"/><link rel="stylesheet" type="text/css" href="http://exp.bdstatic.com/static/common-jquery/widget/js/logic/msg/amazing-2016/amazing-2016_12ce25d.css"/><link rel="stylesheet" type="text/css" href="http://exp.bdstatic.com/static/common-jquery/pkg/jquery-ui_2118283.css"/></head><script> 
+	if(typeof(alog) !== 'undefined') {
+		alog('speed.set', 'ht', +new Date); 
+	}
+</script>
+<body class=""><header class="header">
+<div class="top clearfix">
+<div class="top-left">
+<a href="/article/495ba84109665338b30ede98.html" class="back" log="type:2016,module:step,page:index,pos:header_back,action:click,expGroup:G0"></a>
+</div>
+<div class="top-right">
+<ul class="options clearfix">
+<li>
+<a href="javascript:;" id="vote-btn" class="vote" log="type:2016,module:step,page:index,pos:header_vote,action:click">
+<b class="num">552</b>
+<b class="hover-tip">投票</b>
+<b class="tip">已投票</b>
+</a>
+</li>
+<li>
+<a href="javascript:;" id="favor-btn" class="favor" log="type:2016,module:step,page:index,pos:header_favor,action:click">
+<b class="num">1372</b>
+<b class="hover-tip">收藏+1</b>
+<b class="tip">已收藏</b>
+</a>
+</li>
+</ul>
+</div>
+<div class="title" id="exp-title">
+<h1>
+二进制、八进制、十进制、十六进制之间的转换
+<div class="audio-wp" data-title='' data-text='' data-for=''>
+<span class="audio-inner">
+<span class="audio-icon"></span><span class="audio-icon-2"></span><span class="audio-icon-3"></span></span>
+<span class="desc">听语音</span>
+</div>
+</h1>
+</div>
+<form action="/search" name="step-search-form" method="get" id="step-search-form" class="step-search-form">
+<input class="keyword" id="keyword" autocomplete="off" maxlength="256" tabindex="1" size="23" name="word" placeholder="请输入搜索内容" value="" />
+<input type="submit" id="submit" class="submit" value="搜索经验" />
+</form>
+</div>
+</header>
+<div class="waiting-step-loading" id="waiting-step-loading">
+<div class="tip-placehoder"></div>
+<div class="loading-tip">
+<p class="exp-tip">
+百度经验</p>
+<p class="loading-data-tip">
+页面数据加载中...</p>
+</div>
+</div>
+<section class="body-wrapper"><section class="body" id="body">
+<div class="step-container">
+<div class="left-cover" id="left-cover">
+<div class="previous-arrow"></div>
+</div>
+<div class="step-play-container" id="step-play-container">
+<div class="step-play-list" id="step-play-list">
+<div class="step-item-container step-item-brief clearfix" id="step-item-0">
+<div class="writer-info left" id="brief-writer-info">
+<div class='place_holder' style='height: 13%'></div>
+<div class="writer-info-inner" style="height: 74%">
+<div class="writer-portrait">
+<a href="/user/npublic?un=wsdxwps110" target="_blank" title="wsdxwps110" class="writer-portrait-container">
+<img src="http://himg.bdimg.com/sys/portrait/item/42f777736478777073313130b90a.jpg" title="wsdxwps110" width="87px" height="87px" alt="wsdxwps110" />
+<div class="portrait-cover"></div>
+</a>
+</div>
+<div class="writer-basic">
+<div class="writer-basic-name">
+wsdxwps110
+</div>
+<div class="icon-wrp">
+<div class="icon-huiz">
+<a class="u-icon cpm3" title="签约作者" href="/help?page=income-author" target="_blank" rel="nofollow"></a>
+</div>
+</div>
+</div>
+</div>
+<div class='place_holder' style='height: 13%'></div>
+</div>
+<div class="brief-info left">
+<div class="place_holder" style="height:9%"></div>
+<div class="brief-info-inner clearfix" style="height: 70%">
+<div class="brief-info-text left">
+<span class="left-quote" id="brief-left-quote"></span>
+<div class="step-text-wrapper brief-text-area" texttype="brief-text-area" id="step-text-wrapper-0">
+<p>进制也就是进制位，对于接触过电脑的人来说应该都不陌生，我们常用的进制包括：二进制、八进制、十进制与十六进制，它们之间区别在于数运算时是逢几进一位。比如二进制是逢2进一位，十进制也就是我们常用的0-9是逢10进一位。具体的用法小编今天不着重解释，主要针对他们之间的转换加以讨论（今天只讲整数）。</p>
+</div>
+<span class="right-quote" id="brief-right-quote"></span>
+</div>
+<div class="step-img-wrapper brief-info-img left" stepType="brief-info-img" imgLoaded=0>
+<div class="img-cover">
+<div class="inner-img-cover" data-src="425773224f4a20a4a44f3eba93529822720ed03f"></div>
+<img src="http://img.baidu.com/img/iknow/exp/album/exp_loading.gif" data-src="http://c.hiphotos.baidu.com/exp/w=200/sign=919cb54f59afa40f3cc6c9dd9b65038c/29381f30e924b8994b6d7b456d061d950a7bf67e.jpg" /></div>
+</div>
+</div>
+<div class="place_holder" style="height: 15%"></div>
+</div>
+</div>
+<div class="step-item-container" id="step-item-1">
+<div class="place_holder" style="height:9%"></div>
+<div class="step-item-textimg-inner clearfix" style="height:82%">
+<section class="step-text-container left">
+<header>
+<h3 class="step-item-header">
+<span class="current-order-in-step">1</span>/2
+</h3>
+</header>
+<div class="step-text-wrapper img-text-area" texttype="img-text-area" id="step-text-wrapper-1">
+<p>十进制转二进制</p><p>方法为：十进制数除2取余法，即十进制数除2，余数为权位上的数，得到的商值继续除2，依此步骤继续向下运算直到商为0为止。</p><p>（具体用法如下图）</p>
+</div>
+</section>
+<section class="step-img-container left">
+<div class="step-img-wrapper step-one-img" stepType="step-one-img" imgLoaded=0>
+<div class="img-cover">
+<div class="inner-img-cover" data-src="263e802f07082838df4bd169bb99a9014d08f1ce"></div>
+<img src="http://img.baidu.com/img/iknow/exp/album/exp_loading.gif" data-src="http://a.hiphotos.baidu.com/exp/w=480/sign=1444bfd9a7c27d1ea5263acc2bd4adaf/aec379310a55b3192bbf8f0840a98226cffc170c.jpg" /></div>
+</div>
+</section>
+</div>
+<div class="place_holder" style="height: 9%"></div>
+</div>
+<div class="step-item-container" id="step-item-2">
+<div class="place_holder" style="height:9%"></div>
+<div class="step-item-textimg-inner clearfix" style="height:82%">
+<section class="step-text-container left">
+<header>
+<h3 class="step-item-header">
+<span class="current-order-in-step">2</span>/2
+</h3>
+</header>
+<div class="step-text-wrapper img-text-area" texttype="img-text-area" id="step-text-wrapper-2">
+<p>二进制转十进制</p><p>方法为：把二进制数按权展开、相加即得十进制数。</p><p>（具体用法如下图）</p>
+</div>
+</section>
+<section class="step-img-container left">
+<div class="step-img-wrapper step-one-img" stepType="step-one-img" imgLoaded=0>
+<div class="img-cover">
+<div class="inner-img-cover" data-src="fcbbb151f3deb48fb6faa3a3f31f3a292cf578f8"></div>
+<img src="http://img.baidu.com/img/iknow/exp/album/exp_loading.gif" data-src="http://c.hiphotos.baidu.com/exp/w=480/sign=51ce3b7e8444ebf86d716537e9f8d736/0df431adcbef760971989be22ddda3cc7cd99e3f.jpg" /></div>
+</div>
+</section>
+</div>
+<div class="place_holder" style="height: 9%"></div>
+</div>
+<div class="step-item-container" id="step-item-3">
+<div class="place_holder" style="height:9%"></div>
+<div class="step-item-textimg-inner clearfix" style="height:82%">
+<section class="step-text-container left">
+<header>
+<h3 class="step-item-header">
+<span class="current-order-in-step">1</span>/2
+</h3>
+<h3 class="step-item-title">
+二进制与八进制之间的转换
+</h3>
+</header>
+<div class="step-text-wrapper img-text-area-withhead" texttype="img-text-area-withhead" id="step-text-wrapper-3">
+<p>二进制转八进制</p><p>方法为：3位二进制数按权展开相加得到1位八进制数。（注意事项，3位二进制转成八进制是从右到左开始转换，不足时补0）。</p><p>（具体用法如下图）</p>
+</div>
+</section>
+<section class="step-img-container left">
+<div class="step-img-wrapper step-one-img" stepType="step-one-img" imgLoaded=0>
+<div class="img-cover">
+<div class="inner-img-cover" data-src="f9589818367adab4ff8b163e88d4b31c8701e431"></div>
+<img src="http://img.baidu.com/img/iknow/exp/album/exp_loading.gif" data-src="http://f.hiphotos.baidu.com/exp/w=480/sign=0fc7f55c718b4710ce2ffcc4f3cfc3b2/d01373f082025aaf116973b6f8edab64034f1a77.jpg" /></div>
+</div>
+</section>
+</div>
+<div class="place_holder" style="height: 9%"></div>
+</div>
+<div class="step-item-container" id="step-item-4">
+<div class="place_holder" style="height:9%"></div>
+<div class="step-item-textimg-inner clearfix" style="height:82%">
+<section class="step-text-container left">
+<header>
+<h3 class="step-item-header">
+<span class="current-order-in-step">2</span>/2
+</h3>
+</header>
+<div class="step-text-wrapper img-text-area" texttype="img-text-area" id="step-text-wrapper-4">
+<p>八进制转成二进制</p><p>方法为：八进制数通过除2取余法，得到二进制数，对每个八进制为3个二进制，不足时在最左边补零。</p><p>（具体用法如下图）</p>
+</div>
+</section>
+<section class="step-img-container left">
+<div class="step-img-wrapper step-one-img" stepType="step-one-img" imgLoaded=0>
+<div class="img-cover">
+<div class="inner-img-cover" data-src="4e0b3ea4462309f7743eaf6f710e0cf3d7cad63f"></div>
+<img src="http://img.baidu.com/img/iknow/exp/album/exp_loading.gif" data-src="http://e.hiphotos.baidu.com/exp/w=480/sign=af97cca0a864034f0fcdc30e9fc27980/e824b899a9014c088a6a2ad8097b02087bf4f47e.jpg" /></div>
+</div>
+</section>
+</div>
+<div class="place_holder" style="height: 9%"></div>
+</div>
+<div class="step-item-container" id="step-item-5">
+<div class="place_holder" style="height:9%"></div>
+<div class="step-item-textimg-inner clearfix" style="height:82%">
+<section class="step-text-container left">
+<header>
+<h3 class="step-item-header">
+<span class="current-order-in-step">1</span>/2
+</h3>
+<h3 class="step-item-title">
+二进制与十六进制之间的转换
+</h3>
+</header>
+<div class="step-text-wrapper img-text-area-withhead" texttype="img-text-area-withhead" id="step-text-wrapper-5">
+<p>二进制转十六进制</p><p>方法为：与二进制转八进制方法近似，八进制是取三合一，十六进制是取四合一。（注意事项，4位二进制转成十六进制是从右到左开始转换，不足时补0）。</p><p>（具体用法如下图）</p>
+</div>
+</section>
+<section class="step-img-container left">
+<div class="step-img-wrapper step-one-img" stepType="step-one-img" imgLoaded=0>
+<div class="img-cover">
+<div class="inner-img-cover" data-src="9c57e3faaf51f3de8de2bb1997eef01f3a29793f"></div>
+<img src="http://img.baidu.com/img/iknow/exp/album/exp_loading.gif" data-src="http://b.hiphotos.baidu.com/exp/w=480/sign=cf495c2d0f3387449cc52e74610ed937/d1a20cf431adcbef4f647c7bafaf2edda3cc9f7e.jpg" /></div>
+</div>
+</section>
+</div>
+<div class="place_holder" style="height: 9%"></div>
+</div>
+<div class="step-item-container" id="step-item-6">
+<div class="place_holder" style="height:9%"></div>
+<div class="step-item-textimg-inner clearfix" style="height:82%">
+<section class="step-text-container left">
+<header>
+<h3 class="step-item-header">
+<span class="current-order-in-step">2</span>/2
+</h3>
+</header>
+<div class="step-text-wrapper img-text-area" texttype="img-text-area" id="step-text-wrapper-6">
+<p>十六进制转二进制</p><p>方法为：十六进制数通过除2取余法，得到二进制数，对每个十六进制为4个二进制，不足时在最左边补零。</p><p>（具体用法如下图）</p>
+</div>
+</section>
+<section class="step-img-container left">
+<div class="step-img-wrapper step-one-img" stepType="step-one-img" imgLoaded=0>
+<div class="img-cover">
+<div class="inner-img-cover" data-src="9dc3cf58ccbf6c81cf532395bf3eb13533fa4023"></div>
+<img src="http://img.baidu.com/img/iknow/exp/album/exp_loading.gif" data-src="http://h.hiphotos.baidu.com/exp/w=480/sign=89052a755043fbf2c52ca72b807fca1e/e61190ef76c6a7ef8142a75bfefaaf51f3de6662.jpg" /></div>
+</div>
+</section>
+</div>
+<div class="place_holder" style="height: 9%"></div>
+</div>
+<div class="step-item-container" id="step-item-7">
+<div class="place_holder" style="height:9%"></div>
+<div class="step-item-text-inner clearfix" style="height:82%">
+<section class="step-text-container left">
+<header>
+<h3 class="step-item-header">
+<span class="current-order-in-step">1</span>/3
+</h3>
+<h3 class="step-item-title">
+十进制与八进制与十六进制之间的转换
+</h3>
+</header>
+<section class="text smaller-text-left" id="smaller-text-left-7">
+十进制转八进制或者十六进制有两种方法第一：间接法—把十进制转成二进制，然后再由二进制转成八进制或者十六进制。这里不再做图片用法解释。
+</section>
+<section class="text bigger-text-left" id="bigger-text-left-7">
+十进制转八进制或者十六进制有两种方法第一：间接法—把十进制转成二进制，然后再由二进制转成八进制或者十六进制。这里不再做图片用法解释。
+</section>
+</section>
+</div>
+<div class="place_holder" style="height: 9%"></div>
+</div>
+<div class="step-item-container" id="step-item-8">
+<div class="place_holder" style="height:9%"></div>
+<div class="step-item-textimg-inner clearfix" style="height:82%">
+<section class="step-text-container left">
+<header>
+<h3 class="step-item-header">
+<span class="current-order-in-step">2</span>/3
+</h3>
+</header>
+<div class="step-text-wrapper img-text-area" texttype="img-text-area" id="step-text-wrapper-8">
+<p>第二：直接法—把十进制转八进制或者十六进制按照除8或者16取余，直到商为0为止。</p><p>（具体用法如下图）</p>
+</div>
+</section>
+<section class="step-img-container left">
+<div class="step-img-wrapper step-one-img" stepType="step-one-img" imgLoaded=0>
+<div class="img-cover">
+<div class="inner-img-cover" data-src="4bd1e803738da97796bc8456b351f8198718e3f9"></div>
+<img src="http://img.baidu.com/img/iknow/exp/album/exp_loading.gif" data-src="http://h.hiphotos.baidu.com/exp/w=480/sign=c8a7fe7073cf3bc7e800cce4e101babd/0eb30f2442a7d933673be60eae4bd11373f0013f.jpg" /></div>
+</div>
+</section>
+</div>
+<div class="place_holder" style="height: 9%"></div>
+</div>
+<div class="step-item-container" id="step-item-9">
+<div class="place_holder" style="height:9%"></div>
+<div class="step-item-textimg-inner clearfix" style="height:82%">
+<section class="step-text-container left">
+<header>
+<h3 class="step-item-header">
+<span class="current-order-in-step">3</span>/3
+</h3>
+</header>
+<div class="step-text-wrapper img-text-area" texttype="img-text-area" id="step-text-wrapper-9">
+<p>八进制或者十六进制转成十进制</p><p>方法为：把八进制、十六进制数按权展开、相加即得十进制数。</p><p>（具体用法如下图）</p>
+</div>
+</section>
+<section class="step-img-container left">
+<div class="step-img-wrapper step-one-img" stepType="step-one-img" imgLoaded=0>
+<div class="img-cover">
+<div class="inner-img-cover" data-src="5f9e93b1cb134954414eea19554e9258d1094a3f"></div>
+<img src="http://img.baidu.com/img/iknow/exp/album/exp_loading.gif" data-src="http://a.hiphotos.baidu.com/exp/w=480/sign=13d8fea716ce36d3a20482380af23a24/7aec54e736d12f2ef155ac1d4cc2d5628535687e.jpg" /></div>
+</div>
+</section>
+</div>
+<div class="place_holder" style="height: 9%"></div>
+</div>
+<div class="step-item-container" id="step-item-10">
+<div class="place_holder" style="height:9%"></div>
+<div class="step-item-text-inner clearfix" style="height:82%">
+<section class="step-text-container left">
+<header>
+<h3 class="step-item-header">
+<span class="current-order-in-step">1</span>/1
+</h3>
+<h3 class="step-item-title">
+十六进制与八进制之间的转换
+</h3>
+</header>
+<section class="text smaller-text-left" id="smaller-text-left-10">
+八进制与十六进制之间的转换有两种方法第一种：他们之间的转换可以先转成二进制然后再相互转换。第二种：他们之间的转换可以先转成十进制然后再相互转换。这里就不再进行图片用法解释。
+</section>
+<section class="text bigger-text-left" id="bigger-text-left-10">
+八进制与十六进制之间的转换有两种方法第一种：他们之间的转换可以先转成二进制然后再相互转换。第二种：他们之间的转换可以先转成十进制然后再相互转换。这里就不再进行图片用法解释。
+</section>
+</section>
+</div>
+<div class="place_holder" style="height: 9%"></div>
+</div>
+<div class="step-item-container step-item-recommand" id="step-item-11">
+<div class="place_holder" style="height:9%"></div>
+<div class="step-recommand-inner" style="height: 72%;">
+<div class="replay">
+<dl class="clearfix">
+<dt class="replay-img left">
+<a class="replay-img-container" href="javascript:;" id="replay-step-e">
+<img class="recommand-img" alt="二进制、八进制、十进制、十六进制之间的转换" src="http://img.baidu.com/img/iknow/exp/album/exp_loading.gif" data-src="http://c.hiphotos.baidu.com/exp/whcrop=160,120/sign=8f4e780723a446237e9ff320f7524f3f/29381f30e924b8994b6d7b456d061d950a7bf67e.jpg" width="160px" height="120px">
+<div class="img-border"></div>
+</a>
+</dt>
+<dd class="replay-title left">
+<h4>
+二进制、八进制、十进制、十六进制之间的转换
+</h4>
+<a href="javascript:;" id="replay-step" class="replay-step">[重新阅读]</a>
+</dd>
+</dl>
+</div>
+<div class="recommand-list clearfix" id="recommend-list-container"></div>
+</div>
+<div class="place_holder" style="height: 14%"></div>
+</div>
+</div>
+</div>
+<div class="right-cover" id="right-cover">
+<div class="next-arrow"></div>
+</div>
+</div>
+<script type="text/javascript">
+    window.PDC && PDC.first_screen && PDC.first_screen();
+</script>
+</section></section><footer class="footer">
+<script>
+    void function(e,t){for(var n=t.getElementsByTagName("img"),a=+new Date,i=[],o=function(){this.removeEventListener&&this.removeEventListener("load",o,!1),i.push({img:this,time:+new Date})},s=0;s< n.length;s++)!function(){var e=n[s];e.addEventListener?!e.complete&&e.addEventListener("load",o,!1):e.attachEvent&&e.attachEvent("onreadystatechange",function(){"complete"==e.readyState&&o.call(e,o)})}();alog("speed.set",{fsItems:i,fs:a})}(window,document);
+</script>
+<div class="step-pager" id="step-pager">
+<ul id="step-pager-list" class="clearfix"><li class="item step"><a href="javascript:;" class="step-cover" step-index=0>封</a></li><li class="item roman">I</li><li class="item step"><a href="javascript:;" class="preview" data="十进制转二进制方法为：十进制数除2取余法，即十进..." data-type="0" step-index=1>1</a></li><li class="item step"><a href="javascript:;" class="preview" data="二进制转十进制方法为：把二进制数按权展开、相加即..." data-type="0" step-index=2>2</a></li><li class="item roman">II</li><li class="item step"><a href="javascript:;" class="preview" data="二进制转八进制方法为：3位二进制数按权展开相加得..." data-type="0" step-index=3>1</a></li><li class="item step"><a href="javascript:;" class="preview" data="八进制转成二进制方法为：八进制数通过除2取余法，..." data-type="0" step-index=4>2</a></li><li class="item roman">III</li><li class="item step"><a href="javascript:;" class="preview" data="二进制转十六进制方法为：与二进制转八进制方法近似..." data-type="0" step-index=5>1</a></li><li class="item step"><a href="javascript:;" class="preview" data="十六进制转二进制方法为：十六进制数通过除2取余法..." data-type="0" step-index=6>2</a></li><li class="item roman">IV</li><li class="item step"><a href="javascript:;" class="preview" data="十进制转八进制或者十六进制有两种方法第一：间接法..." data-type="0" step-index=7>1</a></li><li class="item step"><a href="javascript:;" class="preview" data="第二：直接法—把十进制转八进制或者十六进制按照除..." data-type="0" step-index=8>2</a></li><li class="item step"><a href="javascript:;" class="preview" data="八进制或者十六进制转成十进制方法为：把八进制、十..." data-type="0" step-index=9>3</a></li><li class="item roman">V</li><li class="item step"><a href="javascript:;" class="preview" data="八进制与十六进制之间的转换有两种方法第一种：他们..." data-type="0" step-index=10>1</a></li><li class="item step"><a href="javascript:;" class="step-last" step-index=11>尾</a></li><li id="next" class="pagenate"><a href="javascript:;">></a></li><li id="pre" class="pagenate"><a href="javascript:;"><</a></li></ul>
+</div>
+</footer>
+<script type="text/javascript">
+    (function() {
+        //解决ie图片缓存闪烁问题
+        try {
+            document.execCommand("BackgroundImageCache", false, true);
+        } catch(err) {}
+    })();
+    //异步接口集
+    F.context({
+        //与个人相关
+        'submit_follow' : '/submit/follow',
+        'submit_vote' : '/submit/vote',
+        'submit_author' : '/submit/author',
+        'submit_user' : '/submit/user',
+        'submit_favor' : '/submit/favor',
+        'submit_notice' : '/submit/notice',
+        //公共的异步接口部分
+        'common_isLogin' : '/common/isLogin',
+        'common_isVersionExist' : '/common/isVersionExist',
+        'common_isTitleValid' : '/common/isTitleValid',
+        'common_needToTitle' : '/common/needToTitle',
+        'asyncreq' : '/asyncreq',
+        //评论相关
+        'cid' : '16',
+        'submit_comment' : '/submit/comment',
+        'submit_feedback' : '/submit/exp'
+    });
+</script>
+
+<script type="text/javascript">
+        F.context({
+            "BdStoken" : "56d4659414cfbc22a57315b78c976a43",
+            "bdstt" : "1474550562",
+        });
+    </script>
+<script type="text/javascript">
+    var pageId = "jy-album";
+</script>
+<script type="text/javascript" src="http://img.baidu.com/hunter/monkey.jingyan.min.js"></script>
+<script>
+	if(typeof(alog) !== 'undefined'){
+    	alog('speed.set', 'drt', +new Date); 
+    }//请利用js框架在domreday时调用该代码，或在body的尾部
+</script>
+<script>
+    void function(a,b,c,d,e,f){function g(b){a.attachEvent?a.attachEvent("onload",b,!1):a.addEventListener&&a.addEventListener("load",b)}function h(a,c,d){d=d||15;var e=new Date;e.setTime((new Date).getTime()+1e3*d),b.cookie=a+"="+escape(c)+";path=/;expires="+e.toGMTString()}function i(a){var c=b.cookie.match(new RegExp("(^| )"+a+"=([^;]*)(;|$)"));return null!=c?unescape(c[2]):null}function j(){var a=i("PMS_JT");if(a){h("PMS_JT","",-1);try{a=a.match(/{["']s["']:(\d+),["']r["']:["']([\s\S]+)["']}/),a=a&&a[1]&&a[2]?{s:parseInt(a[1]),r:a[2]}:{}}catch(c){a={}}a.r&&b.referrer.replace(/#.*/,"")!=a.r||alog("speed.set","wt",a.s)}}if(a.alogObjectConfig){var k=a.alogObjectConfig.sample,l=a.alogObjectConfig.rand;if("https:"===a.location.protocol){if(d="https://gss2.bdstatic.com/70cFsjip0QIZ8tyhnq"+d,!k||!l)return}else d="http://img.baidu.com"+d;k&&l&&l>k||(g(function(){alog("speed.set","lt",+new Date),e=b.createElement(c),e.async=!0,e.src=d+"?v="+~(new Date/864e5),f=b.getElementsByTagName(c)[0],f.parentNode.insertBefore(e,f)}),j())}}(window,document,"script","/hunter/alog/dp.min.js");
+</script>
+</body><script type="text/javascript" src="http://exp.bdstatic.com/static/common/pkg/common_sync_js_0_b2305d5.js"></script>
+<script type="text/javascript">require.resourceMap({"res":{"common:widget/lib/tangram/fx/move/move.js":{"url":"http://exp.bdstatic.com/static/common/widget/lib/tangram/fx/move/move_4f6a3cf.js","pkg":"common:p1","deps":["common:widget/lib/tangram/base/base.js","common:widget/lib/tangram/fx/create/create.js"]},"common:widget/ui/red-bao/red-bao.js":{"url":"http://exp.bdstatic.com/static/common/widget/ui/red-bao/red-bao_5d7852c.js","pkg":"common:p11","deps":["common:widget/lib/tangram/base/base.js","common:widget/ui/dialog/dialog.js"]},"common:widget/lib/tangram/ui/Carousel/Carousel.js":{"url":"http://exp.bdstatic.com/static/common/widget/lib/tangram/ui/Carousel/Carousel_9ed0987.js","pkg":"common:p2","deps":["common:widget/lib/tangram/base/base.js","common:widget/lib/tangram/uiBase/uiBase.js"]},"activity:widget/ui/redbox/redbox.js":{"url":"http://exp.bdstatic.com/static/activity/widget/ui/redbox/redbox_58a8c80.js","pkg":"activity:p2","deps":["common:widget/lib/tangram/base/base.js","common:widget/ui/dialog/dialog.js"]},"common-jquery:widget/lib/jquery/jquery.js":{"url":"http://exp.bdstatic.com/static/common-jquery/widget/lib/jquery/jquery_250bf24.js","pkg":"common-jquery:p1"},"common-jquery:widget/lib/baidutemplate/baidutemplate.min.js":{"url":"http://exp.bdstatic.com/static/common-jquery/widget/lib/baidutemplate/baidutemplate.min_d875663.js","pkg":"common-jquery:p3"},"common-jquery:widget/js/util/event/event.js":{"url":"http://exp.bdstatic.com/static/common-jquery/widget/js/util/event/event_7282486.js","pkg":"common-jquery:p2","deps":["common-jquery:widget/lib/jquery/jquery.js"]},"common:widget/lib/tangram/base/base.js":{"url":"http://exp.bdstatic.com/static/common/widget/lib/tangram/base/base_e37cc01.js","pkg":"common:p0"},"step:widget/header/header.js":{"url":"http://exp.bdstatic.com/static/step/widget/header/header_4cc3a59.js","pkg":"step:p0","deps":["common:widget/lib/tangram/base/base.js","common:widget/lib/fis/event/event.js","common:widget/ui/log/log.js"]}}});</script><script type="text/javascript" src="http://exp.bdstatic.com/static/common/pkg/common_async_js_0_18c6036.js"></script>
+<script type="text/javascript" src="http://exp.bdstatic.com/static/common/pkg/common_sync_js_1_f0c6cdb.js"></script>
+<script type="text/javascript" src="http://exp.bdstatic.com/static/common/pkg/common_sync_js_2_fa2e9a7.js"></script>
+<script type="text/javascript" src="http://exp.bdstatic.com/static/activity/pkg/return_60f55cc.js"></script>
+<script type="text/javascript" src="http://exp.bdstatic.com/static/common-jquery/pkg/framework_93ed9d4.js"></script>
+<script type="text/javascript" src="http://exp.bdstatic.com/static/common-jquery/pkg/base_c46b7e5.js"></script>
+<script type="text/javascript" src="http://exp.bdstatic.com/static/common-jquery/pkg/more_6262db0.js"></script>
+<script type="text/javascript" src="http://exp.bdstatic.com/static/step/pkg/step_15bf76f.js"></script>
+<script type="text/javascript">!function(){require.async("common:widget/baidu-tongji/baidu-tongji.js", function(B){ B.init('23864885403214761821'); });}();
+!function(){require.async('step:widget/header/header.js', function (header) {
+    header.init();
+});
+}();
+!function(){    require.async('step:widget/ui/brand-ads/brand-ads.js',function(ad_log){
+        ad_log.init('');
+    });
+}();
+!function(){require.async(["common:widget/lib/tangram/base/base.js", "step:widget/pager/pager.js"], function(T, pager){
+    T.dom.ready(function(){
+        pager.init(1);
+    });
+
+    });
+}();
+!function(){        if(typeof PDC != 'undefined'){
+            PDC.init({
+                is_login   : 0,
+                sample     : 1,
+                product_id : 132,
+                page_id    : 3
+            });
+        }
+        F.context({
+            //请求地址
+            "common":'/common',
+            "uoper": '/uoperation',
+            "edit": '/edit/',
+            "logo": 'http://img.baidu.com/img/iknow/exp/logo_uui.jpg',
+            "comment": '/comment/',
+            "hi": 'http://hiphotos.baidu.com/exp/abpic/item/',//空间缩略图片地址
+            "hiori": 'http://hiphotos.baidu.com/exp/pic/item/',//空间图片地址
+            "ucFollowing": '/user/nuc/following',
+            "ucFavorexp": '/user/nuc/favorexp',
+            "title": '二进制、八进制、十进制、十六进制之间的转换',
+            "isLogin" : 0,
+            "username": '',
+            "writerId": '',
+            "maxFollowVote": 9999999,
+            "eid": '495ba84109665338b30ede98',
+            "isFavor":0,
+            "expFavorNum": 1372,
+            "feedbackSuc": 802,
+            "MAX_SUC_FAIL_TIMES": 999999,
+            "stepPic": {"amount":9,"stepPic":[{"src":"http:\/\/hiphotos.baidu.com\/exp\/pic\/item\/425773224f4a20a4a44f3eba93529822720ed03f.jpg","stepIndex":0,"picIndex":1,"picIndexInStep":1,"type":"brief"},{"src":"http:\/\/hiphotos.baidu.com\/exp\/pic\/item\/263e802f07082838df4bd169bb99a9014d08f1ce.jpg","stepIndex":1,"picIndex":2,"picIndexInStep":1,"type":"step"},{"src":"http:\/\/hiphotos.baidu.com\/exp\/pic\/item\/fcbbb151f3deb48fb6faa3a3f31f3a292cf578f8.jpg","stepIndex":2,"picIndex":3,"picIndexInStep":1,"type":"step"},{"src":"http:\/\/hiphotos.baidu.com\/exp\/pic\/item\/f9589818367adab4ff8b163e88d4b31c8701e431.jpg","stepIndex":3,"picIndex":4,"picIndexInStep":1,"type":"common"},{"src":"http:\/\/hiphotos.baidu.com\/exp\/pic\/item\/4e0b3ea4462309f7743eaf6f710e0cf3d7cad63f.jpg","stepIndex":4,"picIndex":5,"picIndexInStep":1,"type":"common"},{"src":"http:\/\/hiphotos.baidu.com\/exp\/pic\/item\/9c57e3faaf51f3de8de2bb1997eef01f3a29793f.jpg","stepIndex":5,"picIndex":6,"picIndexInStep":1,"type":"common"},{"src":"http:\/\/hiphotos.baidu.com\/exp\/pic\/item\/9dc3cf58ccbf6c81cf532395bf3eb13533fa4023.jpg","stepIndex":6,"picIndex":7,"picIndexInStep":1,"type":"common"},{"src":"http:\/\/hiphotos.baidu.com\/exp\/pic\/item\/4bd1e803738da97796bc8456b351f8198718e3f9.jpg","stepIndex":8,"picIndex":8,"picIndexInStep":1,"type":"common"},{"src":"http:\/\/hiphotos.baidu.com\/exp\/pic\/item\/5f9e93b1cb134954414eea19554e9258d1094a3f.jpg","stepIndex":9,"picIndex":9,"picIndexInStep":1,"type":"common"}]},
+            "BdStoken" : "56d4659414cfbc22a57315b78c976a43",
+            "bdstt" : "1474550562",
+            'typeId': 2016
+        });
+        require.async(["common:widget/lib/tangram/base/base.js", "step:widget/ui/adjust-size/adjust-size.js", "step:widget/ui/step-album/step-album.js", "step:widget/ui/vote-favor/vote-favor.js", "step:widget/ui/user-guide/user-guide.js", "common:widget/ui/log/log.js"], function(T, adjustSize, stepAlbum, header, userGuide, log){
+            T.dom.ready(function(){
+                if(T.browser.ie && T.browser.ie == 6){
+                    T.dom.setStyle("waiting-step-loading", "height", T.page.getViewHeight()-75);
+                }
+                if(F.context('isBrandAd')){
+                    adjustSize.init({
+                        'img-text-area-withhead':{
+                            height: 360,
+                            width:270,
+                            spaceHeight:107
+                        }
+                    });
+                }else{
+                    adjustSize.init();
+                }
+                
+                adjustSize.resize(1);
+                T.hide("waiting-step-loading");
+                T.on(window, "resize", function(){
+                    adjustSize.resize();
+                });
+                userGuide.init();
+                stepAlbum.init();
+                header.init("vote-btn", "favor-btn", F.context("isFavor"));
+
+                log.init({
+                    query : 'a',        //需要绑定的标签元素，可选，默认为a标签
+                    evtType : 'click',   //鼠标事件定义，可选，默认是click
+                    type: F.context('typeId'),
+                    page: 'step'
+                });
+
+                //左侧推广位
+                /*LeftPromotion.init({
+                    imgSrc: 'http://jingyan.baidu.com/event/img/hb92X240.gif',
+                    url: 'http://jingyan.baidu.com/activity/hongbao201411?fr=step',
+                    target: 'step-play-container'
+                });*/
+            });
+        });
+
+    }();</script></html><!--13620314540589443594092221-->
+<script> var _trace_page_logid = 1362031454; </script>
